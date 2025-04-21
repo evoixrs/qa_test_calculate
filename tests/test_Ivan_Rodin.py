@@ -17,4 +17,4 @@ def test_calc_division_null(): # тестирование деления на н
     assert calculate(1, 0, '/') == "Ошибка: деление на ноль!"
 
 def test_calc_bad(): # тестирование неверной операции
-    assert calculate(777, 99, '#') == "Неверная опреация"
+    assert calculate(777, 99, '#') == "Неверная операция"
